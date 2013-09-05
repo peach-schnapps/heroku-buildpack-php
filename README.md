@@ -22,9 +22,9 @@ The config files are bundled with the buildpack itself:
 * conf/httpd.conf
 * conf/php.ini
 
-Configure Heroku to use this buildpack repo AND branch
+Add the following to `.buildpacks`
 
-    heroku config:set BUILDPACK_URL=git://github.com/winglian/heroku-buildpack-php.git#mpm-event-php55-fpm
+    `https://github.com/peach-schnapps/heroku-buildpack-php`
 
 This buildpack also supports custom Document Roots in your application. Simply add an environment variable. If your document root is public in the root of your repo, then run
     
