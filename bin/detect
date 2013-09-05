@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-if [ `find $1 -name "index.php" | wc | awk '{print $1}'` != 0 ]; then
+if [ `find $1 -name "index.php" | find $1 -name "server.php" | wc | awk '{print $1}'` != 0 ]; then
   echo "PHP" && exit 0
 else
   echo "no" && exit 1
