@@ -1,7 +1,7 @@
-Apache+PHP build pack
+Apache+PHP build pack multi compatible
 ========================
 
-This is a build pack bundling PHP and Apache for Heroku apps.
+For use with .buildpacks (ddollar/heroku-buildpack-multi)
 
 **Features:**
 * PHP 5.5.3 (PHP-FPM)
